@@ -1,4 +1,4 @@
-let store = {drivers: []}
+let store = {driver: []}
 
 class Driver {
   constructor(name) {
@@ -7,5 +7,3 @@ class Driver {
     store.driver.push(this)
   }
 }
-
-
