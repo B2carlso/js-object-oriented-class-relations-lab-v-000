@@ -22,3 +22,10 @@ class Passenger {
     store.passengers.push(this)
   }
 }
+
+class Trip {
+  constructor(driver, passenger) {
+    this.driver = driver
+    this.passenger = passenger
+  }
+}
