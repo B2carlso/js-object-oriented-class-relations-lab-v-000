@@ -6,6 +6,7 @@ class Driver {
   constructor(name) {
     this.name = name
     this.id = ++driverId
+
     store.drivers.push(this)
   }
 }
@@ -14,5 +15,7 @@ class Driver {
 class Passenger {
   constructor(name) {
     this.name = name
+
+    store.passengers.push(this)
   }
 }
